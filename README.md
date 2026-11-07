@@ -194,10 +194,11 @@ Exec=env LANG=zh_CN.UTF-8 antigravity --lang=zh-CN %U
 
 <div align="center">
 
-🌸 **特别致谢** 🌸  
+🌸 **特别致谢与安全守则** 🌸  
 感谢所有在 Linux 双系统与游戏道路上先行探索的极客前辈与社区同好！  
 希望这本避坑实录能为你节省几十个小时的查报错时间。
 
+<sub>⚠️ 涉及双系统磁盘与引导操作存在数据风险，操作前请参阅 <a href="https://github.com/shenchuchu91-hub/disclaimer">全局免责声明与通用安全规范 (Disclaimer)</a></sub>  
 <sub>Made with 💖 by <b>shenchuchu91-hub</b> · 献给所有在 Arch 上探索的拓荒者</sub>
 
 </div>
