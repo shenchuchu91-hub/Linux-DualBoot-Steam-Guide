@@ -1,0 +1,86 @@
+<svg fill="none" viewBox="0 0 850 250" width="100%" height="250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="guideBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181825"/>
+      <stop offset="50%" stop-color="#1e1e2e"/>
+      <stop offset="100%" stop-color="#11111b"/>
+    </linearGradient>
+
+    <linearGradient id="neonTitle2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff9a9e"/>
+      <stop offset="50%" stop-color="#fecfef"/>
+      <stop offset="100%" stop-color="#89dceb"/>
+    </linearGradient>
+
+    <linearGradient id="borderGuide2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f38ba8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#89b4fa" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#a6e3a1" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <linearGradient id="waveGuide2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#89b4fa" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#cba6f7" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#f38ba8" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif;
+      font-weight: 800;
+      font-size: 29px;
+      fill: url(#neonTitle2);
+      filter: drop-shadow(0px 2px 8px rgba(243, 139, 168, 0.4));
+    }
+    .subtitle {
+      font-family: "Fira Code", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 14.5px;
+      font-weight: 500;
+      fill: #cdd6f4;
+      letter-spacing: 0.5px;
+    }
+    .badge-txt {
+      font-family: "Fira Code", monospace;
+      font-size: 11.5px;
+      font-weight: bold;
+    }
+  </style>
+
+  <rect x="2" y="2" width="846" height="246" rx="20" fill="url(#guideBg2)" stroke="url(#borderGuide2)" stroke-width="2"/>
+  <path d="M2,165 C220,210 390,130 550,180 C710,230 780,150 848,185 L848,246 C848,246 848,246 846,248 L2,248 Z" fill="url(#waveGuide2)"/>
+
+  <text x="60" y="50" fill="#f9e2af" font-size="20">✦</text>
+  <text x="780" y="65" fill="#f9e2af" font-size="24">✦</text>
+  <text x="740" y="190" fill="#f9e2af" font-size="16">✧</text>
+  <text x="100" y="200" fill="#f9e2af" font-size="16">✧</text>
+
+  <!-- 左侧双系统与工具图标 -->
+  <g transform="translate(50, 70)">
+    <circle cx="45" cy="45" r="42" fill="#313244" stroke="#89b4fa" stroke-width="2"/>
+    <text x="45" y="57" text-anchor="middle" font-size="38">🐧</text>
+  </g>
+
+  <!-- 中间文字区域 -->
+  <g transform="translate(170, 0)">
+    <text x="0" y="85" class="title">✨ Win 转 Arch 双系统 &amp; Steam 避坑实录 ✨</text>
+    <text x="0" y="125" class="subtitle">🌸 反重力 (Antigravity) 汉化补丁 · 双系统时间引导 · Steam 跨盘全解 🌸</text>
+
+    <!-- 标签胶囊 -->
+    <g transform="translate(0, 155)">
+      <rect x="0" y="0" width="125" height="26" rx="13" fill="#313244" stroke="#89b4fa" stroke-width="1"/>
+      <text x="62" y="17" text-anchor="middle" fill="#89b4fa" class="badge-txt">🪟 双系统避坑</text>
+
+      <rect x="135" y="0" width="135" height="26" rx="13" fill="#313244" stroke="#ff9a9e" stroke-width="1"/>
+      <text x="202" y="17" text-anchor="middle" fill="#ff9a9e" class="badge-txt">🎮 Steam 跨盘玩</text>
+
+      <rect x="280" y="0" width="145" height="26" rx="13" fill="#313244" stroke="#a6e3a1" stroke-width="1"/>
+      <text x="352" y="17" text-anchor="middle" fill="#a6e3a1" class="badge-txt">🌐 反重力汉化补丁</text>
+
+      <rect x="435" y="0" width="95" height="26" rx="13" fill="#313244" stroke="#fab387" stroke-width="1"/>
+      <text x="482" y="17" text-anchor="middle" fill="#fab387" class="badge-txt">🛡️ 实战血泪</text>
+    </g>
+
+    <text x="0" y="215" fill="#a6e3a1" font-family="monospace" font-size="12.5">&gt; "把我踩过的每一个坑都铺平，让后来者一路坦途无阻。"</text>
+  </g>
+</svg>
