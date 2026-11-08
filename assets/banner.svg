@@ -63,24 +63,24 @@
 
   <!-- 中间文字区域 -->
   <g transform="translate(170, 0)">
-    <text x="0" y="85" class="title">✨ Win 转 Arch 双系统 &amp; Steam 避坑实录 ✨</text>
-    <text x="0" y="125" class="subtitle">🌸 反重力 (Antigravity) 汉化补丁 · 双系统时间引导 · Steam 跨盘全解 🌸</text>
+    <text x="0" y="85" class="title">✨ Linux 双系统环境配置与常见问题排查 ✨</text>
+    <text x="0" y="125" class="subtitle">🌸 双系统引导与时间同步 · Steam 跨盘挂载 · Google Antigravity 语言配置 🌸</text>
 
     <!-- 标签胶囊 -->
     <g transform="translate(0, 155)">
       <rect x="0" y="0" width="125" height="26" rx="13" fill="#313244" stroke="#89b4fa" stroke-width="1"/>
-      <text x="62" y="17" text-anchor="middle" fill="#89b4fa" class="badge-txt">🪟 双系统避坑</text>
+      <text x="62" y="17" text-anchor="middle" fill="#89b4fa" class="badge-txt">🪟 双系统排错</text>
 
       <rect x="135" y="0" width="135" height="26" rx="13" fill="#313244" stroke="#ff9a9e" stroke-width="1"/>
-      <text x="202" y="17" text-anchor="middle" fill="#ff9a9e" class="badge-txt">🎮 Steam 跨盘玩</text>
+      <text x="202" y="17" text-anchor="middle" fill="#ff9a9e" class="badge-txt">🎮 Steam 跨盘运行</text>
 
       <rect x="280" y="0" width="145" height="26" rx="13" fill="#313244" stroke="#a6e3a1" stroke-width="1"/>
-      <text x="352" y="17" text-anchor="middle" fill="#a6e3a1" class="badge-txt">🌐 反重力汉化补丁</text>
+      <text x="352" y="17" text-anchor="middle" fill="#a6e3a1" class="badge-txt">🌐 Antigravity 汉化</text>
 
       <rect x="435" y="0" width="95" height="26" rx="13" fill="#313244" stroke="#fab387" stroke-width="1"/>
-      <text x="482" y="17" text-anchor="middle" fill="#fab387" class="badge-txt">🛡️ 实战血泪</text>
+      <text x="482" y="17" text-anchor="middle" fill="#fab387" class="badge-txt">🛠️ 实践排错</text>
     </g>
 
-    <text x="0" y="215" fill="#a6e3a1" font-family="monospace" font-size="12.5">&gt; "把我踩过的每一个坑都铺平，让后来者一路坦途无阻。"</text>
+    <text x="0" y="215" fill="#a6e3a1" font-family="monospace" font-size="12.5">&gt; "记录实际环境中遇到的边界问题与经检验的解决方案"</text>
   </g>
 </svg>
