@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="./assets/banner.svg" width="100%" alt="Monochrome Banner"/>
+</div>
+
+---
+
 # linux-dualboot-steam-guide
 
 windows + arch dual-boot config, rtc/utc time sync, ntfs mount, proton troubleshoot.
@@ -169,4 +175,8 @@ Exec=env LANG=zh_CN.UTF-8 antigravity --lang=zh-CN %U
 
 ---
 
+---
 
+<div align="center">
+  <sub>雨声未停 · 保持冷清 · 独行其道</sub>
+</div>
